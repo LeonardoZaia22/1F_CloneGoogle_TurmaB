@@ -1,35 +1,106 @@
- *{
-    margin:0 ; 
-    padding:0 ; 
- }
+*{
+    margin: 0;
+    padding: 0;
+}
 
- body{
-    background-color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 45px;
+body{
+   background-color: #fff;
+   font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 40px;
 
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+    background-color: #fff;
+    height: 60px;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.link{
+    text-decoration: none;
+    padding-left: 10px;
+    color: #5B5A5B;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn-cinza{
+    font-size: 13px;
+    text-decoration: none;
+    background: #dcdcdc;
+    padding: 8px 20px 8px 20px;
+    color: #4E4B51;
+    border-radius: 5px ;
+    margin-left: 5px;
+}
+
+.pesquisa{
+    margin: 10px;
+  height: 40px;
+  min-width: 50vw;
+  max-width: 75vw;
+  border-radius: 20px;
+  border: 1px solid #dcdcdc;
+}
+
+.pesquisa:hover{
+    box-shadow: 2px 0px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn{
+    background: #1A73E8;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    border-radius: 5px ;
+    margin-left: 10px;
+}
+
+.btn:hover{
+    background: #1A73E8e8;
+}
+
+ion-icon{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+ion-icon:hover{
+    background: #dcdcdc;
+    border-radius: 20px;
+}
+
+main{
+    background-color: #fff;
+    flex-grow: 1;
 
     display: flex;
     flex-direction: column;
-    }
+    justify-content: center;
+    align-items: center;
+}
 
+footer{
+    color: #6B76B2;
+    background: #dcdcdc;
+    height: 60px;
+    border-bottom: 1px solid #DDDFE3;
+    font-size: 18px;
+    padding-left: 18px;
 
-    header
-        {background-color: rebeccapurple;
-         height: 60px;}
-
-    main
-        {background-color: pink;
-        flex-grow: 1;
-    }
-
-    footer
-        {background-color: orange;
-         height: 60px;   
-        }
-    
-    
+    display: flex;
+    align-items: center;
+}
